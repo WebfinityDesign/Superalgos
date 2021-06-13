@@ -29,8 +29,8 @@
         },
         {
             "style": "Success",
-            "text": "When you build a tutorial for Superalgos, you become the maintainer of the tutorial. It is your responsibility to keep the tutorial up to date with the system, and to implement the feedback users may share! Your tutorial must become the ultimate resource to learn the topics it covers.",
-            "updated": 1617712109958
+            "text": "When you build a tutorial for Superalgos, you become the maintainer of the tutorial. It is your responsibility to keep the tutorial up to date with the system, and to implement the feedback users may share! Your tutorial must become the ultimate resource to learn the topics it covers. ",
+            "updated": 1620645983606
         },
         {
             "style": "Title",
@@ -41,6 +41,25 @@
             "style": "Text",
             "text": "To deliver the best possible experience, a tutorial must be featured in a specific Workspace, and the workspace must be custom-tailored to serve the tutorial. The workspace must be clean and feature the assets required for the learning experience to be optimal. It is best to keep the workspace clean, light, and stripped of unnecessary resources.",
             "updated": 1617732813825
+        },
+        {
+            "style": "Subtitle",
+            "text": "Use the USDT/BTC Market in Binance.com",
+            "updated": 1621871090187
+        },
+        {
+            "style": "Text",
+            "text": "If your tutorial deals with data, it is best to use the same exchange, market, and date ranges already in use in the Getting Started Plugin Workspace tutorials. This way, users will already have the data and can go through the tutorial easier.",
+            "updated": 1621871223112
+        },
+        {
+            "style": "Note",
+            "text": "If for whatever reason the tutorial must deal with other markets and/or exchanges to deliver the content, then go ahead and ignore the above.",
+            "updated": 1621871324929
+        },
+        {
+            "style": "Success",
+            "text": "Make sure you include a step allowing users to switch to BinanceUS, in case they need to, just like in the Welcome to Superalgos Tutorial."
         },
         {
             "style": "Title",
@@ -77,6 +96,11 @@
             "updated": 1617732933799
         },
         {
+            "style": "Success",
+            "text": "Consult with project maintainers what would be good names for each tutorial in the series. Naming tutorials with clear and descriptive names is important.",
+            "updated": 1621875606145
+        },
+        {
             "style": "Title",
             "text": "The Target Audience",
             "updated": 1617713465981
@@ -93,8 +117,8 @@
         },
         {
             "style": "Important",
-            "text": "We choose to focus on building comprehensive tutorials that everyone can follow and that leaves no one behind. We believe that a tutorial that goes slow, covering every detail, and taking the time to explain the nuance is the right approach at this stage. By building tutorials in a such manner, we guarantee that those who are willing to invest the time to learn the system have adequate material to quickly become power users.",
-            "updated": 1617733086141
+            "text": "We choose to focus on building comprehensive tutorials that everyone can follow and that leave no one behind. We believe that a tutorial that goes slow, covering every detail, and taking the time to explain the nuance is the right approach at this stage. By building tutorials in a such manner, we guarantee that those who are willing to invest the time to learn the system have adequate material to quickly become power users.",
+            "updated": 1621870335450
         },
         {
             "style": "Text",
@@ -118,8 +142,26 @@
         },
         {
             "style": "Title",
-            "text": "Consistent Use of Space and Styles",
-            "updated": 1617904223037
+            "text": "Use Precise Language",
+            "updated": 1620645613169
+        },
+        {
+            "style": "Text",
+            "text": "The ultimate goal of tutorials is to provide users with a hands-on learning experience covering topics in detail. In general terms, we know that a tutorial is good — or has reached a mature state — when users ask no questions about it in the Support Group.",
+            "updated": 1620645730740
+        },
+        {
+            "style": "Text",
+            "text": "Be precise and unequivocal with language. Read your writing over and over in search of phrases that may not be easily understood, or that may be interpreted in different ways. Improve the sentences to make them as clear as possible. Remember, the less clear your writing is, the more questions we have in the Support Group.",
+            "updated": 1620645812565
+        },
+        {
+            "style": "Success",
+            "text": "Be prepared to iterate over and over until the tutorial stabilizes. That will happen when there are no more questions about the topic in the Support Group!"
+        },
+        {
+            "style": "Title",
+            "text": "Consistent Use of Space and Styles"
         },
         {
             "style": "Text",
@@ -331,6 +373,11 @@
             "updated": 1617723650896
         },
         {
+            "style": "List",
+            "text": "Leave at least one line empty before the buttons at the bottom of the tutorial window. Otherwise, in other browsers, the content may overflow the window.",
+            "updated": 1620646218773
+        },
+        {
             "style": "Title",
             "text": "Titles"
         },
@@ -400,6 +447,115 @@
             "style": "Important",
             "text": "Always use a grammar and spell-checker to make sure your tutorial is as correct as it may be!",
             "updated": 1617734220351
+        },
+        {
+            "style": "Title",
+            "text": "The First Page",
+            "updated": 1621874343005
+        },
+        {
+            "style": "Text",
+            "text": "The very first page of a tutorial is a page that briefly describes what the tutorial is about, using the Summary field. The page must have the same name as the tutorial and end with the word `Tutorial`, as the summary you enter will serve as a tooltip when the tutorial is mentioned across the Docs.",
+            "updated": 1621877951283
+        },
+        {
+            "style": "Callout",
+            "text": "For example, the first page of the Welcome to Superalgos! tutorial is Welcome to Superalgos Tutorial."
+        },
+        {
+            "style": "Text",
+            "text": "The page should have an About This Tutorial heading stating what Workspace the tutorial is available in, and who the maintainer is, preferably with basic contact details (Github, Telegram, or Discord user name).",
+            "updated": 1621875043974
+        },
+        {
+            "style": "Success",
+            "text": "See the Welcome to Superalgos Tutorial page for an example.",
+            "updated": 1621875007923
+        },
+        {
+            "style": "Title",
+            "text": "The First Few Steps"
+        },
+        {
+            "style": "List",
+            "text": "Tutorials should start with a welcome message, and a clear explanation of what the tutorial is about, including a brief description of what the user will do while following the tutorial, and what lessons will be learned. No need to compress everything into a single step... two and even three steps are fine."
+        },
+        {
+            "style": "List",
+            "text": "If the tutorial requires prior knowledge beyond the tutorials in the Getting Started Plugin Workspace, devote a step to explaining what prior knowledge is required so that users may complete the relevant tutorials first."
+        },
+        {
+            "style": "List",
+            "text": "You should also take the time to explain what's featured in the Workspace. The idea is that users should get familiar with the workspace as soon as possible, to understand how it may differ from other workspaces they may have encountered earlier. You can mention which mines you will use, clarify if they are added as plugins or not, which trading systems, and so on. You may skip the mandatory hierarchies, like Network or Trading Engine.",
+            "updated": 1620198644147
+        },
+        {
+            "style": "List",
+            "text": "If you installed any markets, created custom charts, a particular setup of tasks in the Network hierarchy, or any specific data structure that is not present in the default market installation, make sure you explain what you did and why. It may be confusing for users to find things and not know how they got there.",
+            "updated": 1620198654823
+        },
+        {
+            "style": "Title",
+            "text": "The Last Few Steps"
+        },
+        {
+            "style": "List",
+            "text": "If there are more tutorials in the series, make sure you leave users right by the next one, inviting them to keep going."
+        },
+        {
+            "style": "List",
+            "text": "If the remaining tutorials in the series are not ready yet, then use the last few steps to describe what else will be covered in the series and ask users to stay tuned.",
+            "updated": 1620198840899
+        },
+        {
+            "style": "Title",
+            "text": "Wrapping Up"
+        },
+        {
+            "style": "Text",
+            "text": "When your tutorial is ready and has been reviewed by project maintainers, there a few things you need to take care of so that the workspace and tutorials are easily findable.",
+            "updated": 1621875234349
+        },
+        {
+            "style": "Subtitle",
+            "text": "Create a Page for the Workspace"
+        },
+        {
+            "style": "Text",
+            "text": "Every workspace must be documented, so make sure you create a page for the workspace in the `Community Workspaces` Topic."
+        },
+        {
+            "style": "Important",
+            "text": "Please use a clear and descriptive name and follow the naming convention ending the name with `Plugin Workspace`. Feel free to consult what a good name may be with other contributors in the Docs Group.",
+            "updated": 1621874212145
+        },
+        {
+            "style": "Subtitle",
+            "text": "List of Plugin Workspaces and Tutorials",
+            "updated": 1621875320874
+        },
+        {
+            "style": "Text",
+            "text": "Add the workspace and the tutorial to this list: List of Plugin Workspaces and Tutorials, so that they show up in the First Steps Tutorials book.",
+            "updated": 1621875373640
+        },
+        {
+            "style": "Success",
+            "text": "Consult with project mantainers the spot the tutorial should take in the list."
+        },
+        {
+            "style": "Subtitle",
+            "text": "First Step Tutorials Book",
+            "updated": 1621875396584
+        },
+        {
+            "style": "Text",
+            "text": "Add the tutorial as a chapter in the First Steps Tutorials book.",
+            "updated": 1621875405546
+        },
+        {
+            "style": "Text",
+            "text": ""
         },
         {
             "style": "Text",
